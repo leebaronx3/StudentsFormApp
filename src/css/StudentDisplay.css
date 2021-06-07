@@ -1,0 +1,49 @@
+:root {
+	--dark-blue: #2f3f7b;
+	--light-purple: lavender;
+	--lightest-bg-purple: #fdfbff;
+}
+
+/* Student Display Card */
+.card {
+	min-height: 300px;
+	max-width: 400px;
+	filter: drop-shadow(-5px 5px 5px #29243a);
+	background-color: var(--lightest-bg-purple);
+}
+.card svg {
+	color: var(--dark-blue);
+	font-size: 16pt;
+}
+
+.card a {
+	color: black;
+}
+.card a:hover {
+	text-decoration: underline;
+}
+
+.no-student-card {
+	font-size: 16pt;
+	font-weight: 300;
+}
+
+.card-title {
+	color: var(--dark-blue);
+}
+
+.list-group-flush svg {
+	display: inline-block;
+}
+.list-group-item:first-child {
+	border-top: 1px solid var(--light-purple);
+}
+.list-group-item {
+	border-color: var(--light-purple);
+}
+
+.list-group-flush > * {
+	display: flex;
+	word-break: break-all;
+	background-color: transparent;
+}
